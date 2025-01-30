@@ -18,7 +18,7 @@ namespace Ass_4_CSharp_With_OOP.IAuthentication
 
         public bool AuthorizeUser(string name, string role)
         {
-           return name == "admin" && role == "adminstrator";
+            return name == "admin" && role == "adminstrator";
         }
     }
 }
