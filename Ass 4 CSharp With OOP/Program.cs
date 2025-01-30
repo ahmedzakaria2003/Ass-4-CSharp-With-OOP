@@ -1,4 +1,5 @@
-﻿using Ass_4_CSharp_With_OOP.IShape;
+﻿using Ass_4_CSharp_With_OOP.IAuthentication;
+using Ass_4_CSharp_With_OOP.IShape;
 using System.Runtime.Intrinsics.X86;
 
 namespace Ass_4_CSharp_With_OOP
@@ -102,6 +103,27 @@ namespace Ass_4_CSharp_With_OOP
             #endregion
 
             #region Q2
+
+            AuthenticationService authenticationService = new AuthenticationService();
+            if (authenticationService.AuthenticateUser("admin", "admin"))
+            {
+
+                Console.WriteLine("Loged!!");
+
+                if (authenticationService.AuthorizeUser("admin", "adminstrator"))
+                {
+                    Console.WriteLine("Role is accepted");
+                }
+                else
+                {
+                    Console.WriteLine("Role is wrong");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Failed");
+            }
+
 
             #endregion
             #endregion
