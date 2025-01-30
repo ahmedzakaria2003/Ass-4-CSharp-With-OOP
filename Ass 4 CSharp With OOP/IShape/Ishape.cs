@@ -11,8 +11,8 @@ namespace Ass_4_CSharp_With_OOP.IShape
         public double Area { get; }
 
 
-        void DisplayShapeInfo(); 
-     
+        void DisplayShapeInfo();
+
 
     }
 }
