@@ -9,6 +9,6 @@ namespace Ass_4_CSharp_With_OOP.INotification
    public interface INotificationService
     {
 
-        void SendNotification(string recipient , string message);
+        void SendNotification(string recipient, string message);
     }
 }
