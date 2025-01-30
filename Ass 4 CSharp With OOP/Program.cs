@@ -1,4 +1,5 @@
 ﻿using Ass_4_CSharp_With_OOP.IAuthentication;
+using Ass_4_CSharp_With_OOP.INotification;
 using Ass_4_CSharp_With_OOP.IShape;
 using System.Runtime.Intrinsics.X86;
 
@@ -104,26 +105,38 @@ namespace Ass_4_CSharp_With_OOP
 
             #region Q2
 
-            AuthenticationService authenticationService = new AuthenticationService();
-            if (authenticationService.AuthenticateUser("admin", "admin"))
-            {
+            //AuthenticationService authenticationService = new AuthenticationService();
+            //if (authenticationService.AuthenticateUser("admin", "admin"))
+            //{
 
-                Console.WriteLine("Loged!!");
+            //    Console.WriteLine("Loged!!");
 
-                if (authenticationService.AuthorizeUser("admin", "adminstrator"))
-                {
-                    Console.WriteLine("Role is accepted");
-                }
-                else
-                {
-                    Console.WriteLine("Role is wrong");
-                }
-            }
-            else
-            {
-                Console.WriteLine("Failed");
-            }
+            //    if (authenticationService.AuthorizeUser("admin", "adminstrator"))
+            //    {
+            //        Console.WriteLine("Role is accepted");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Role is wrong");
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Failed");
+            //}
 
+
+            #endregion
+
+            #region Q3
+            //EmailNotificationService emailNotificationService = new EmailNotificationService();
+            //emailNotificationService.SendNotification("ahmed", "a12@gmail.com");
+
+            //PushNotificationService pushNotificationService = new PushNotificationService();
+            //pushNotificationService.SendNotification("user", "hello user");
+
+            //SmsNotificationService smsNotificationService = new SmsNotificationService();
+            //smsNotificationService.SendNotification("123 - 543", "hello SMS");
 
             #endregion
             #endregion
