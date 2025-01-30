@@ -8,8 +8,8 @@ namespace Ass_4_CSharp_With_OOP.IShape
 {
     internal interface ICircle : Ishape 
     {
-        double Radius { get; set; }  
+        double Radius { get; set; }
 
-      
+
     }
 }
