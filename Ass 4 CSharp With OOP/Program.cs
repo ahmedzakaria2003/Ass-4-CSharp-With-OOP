@@ -1,4 +1,5 @@
-﻿using System.Runtime.Intrinsics.X86;
+﻿using Ass_4_CSharp_With_OOP.IShape;
+using System.Runtime.Intrinsics.X86;
 
 namespace Ass_4_CSharp_With_OOP
 {
@@ -8,7 +9,7 @@ namespace Ass_4_CSharp_With_OOP
         {
 
             #region Part01
-            
+
             //Question 1:
             //What is the primary purpose of an interface in C#?
             //a) To provide a way to implement multiple inheritance
@@ -89,6 +90,20 @@ namespace Ass_4_CSharp_With_OOP
             //d) A class cannot implement multiple interfaces
             // Answer : c
 
+            #endregion
+
+            #region Part02
+            #region Q1
+            //Circle circle = new Circle() { Radius = 5 };
+            //Rectangle rectangle = new Rectangle() { Width = 3, Height = 5 };
+            //circle.DisplayShapeInfo();
+            //rectangle.DisplayShapeInfo();
+
+            #endregion
+
+            #region Q2
+
+            #endregion
             #endregion
 
 
