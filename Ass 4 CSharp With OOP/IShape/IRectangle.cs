@@ -9,8 +9,8 @@ namespace Ass_4_CSharp_With_OOP.IShape
     internal interface IRectangle : Ishape
     {
         double Width { get; set; }
-       double Height { get; set; }
+        double Height { get; set; }
 
-      
+
     }
 }
